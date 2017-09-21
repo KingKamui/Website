@@ -1,4 +1,32 @@
-html
+body
   {
   background-image:url("https://i.ytimg.com/vi/Am-gG-VyXPg/maxresdefault.jpg");
+  }
+
+
+
+h1
+  {
+  margin:auto;
+  text-align:center;
+  color:white;
+  font-family:arial;
+  font-size:30px
+  }
+
+h2
+  {
+  margin:auto;
+  text-align:center;
+  color:white;
+  font-family:arial;
+  font-size:20px
+  }
+
+.center
+  {
+  color:white;
+  margin: 400px 200px 200px 200px;
+  font-size:20px;
+  font-family:arial;
   }
