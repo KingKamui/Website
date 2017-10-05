@@ -1,6 +1,45 @@
+@-webkit-keyframes GOJAEGER{
+  20%{
+    background-image:url("https://i.ytimg.com/vi/Am-gG-VyXPg/maxresdefault.jpg");
+    background-size: 1280px 918px;
+  }
+
+  40%{
+    background-image:url(https://img00.deviantart.net/13d3/i/2017/202/f/1/pacific_rim_2_2018__join_the_uprising____by_kaijuattack877-dbh1mt2.png);
+    background-size: 1280px 918px;
+  }
+
+  60%{
+    background-image:url(http://www.iamag.co/features/itsart/wp-content/uploads/2017/07/pacific-rim23.jpg);
+    background-size: 1280px 918px;
+  }
+
+  80%{
+    background-image:url(http://www.scified.com/u/join-jaeger-uprising-2.jpg);
+    background-size: 1280px 918px;
+  }
+
+  100%{
+    background-image:url(http://www.iamag.co/features/itsart/wp-content/uploads/2017/07/pacific-rim22.jpg);
+    background-size: 1280px 918px;
+  }
+} 
+
 body
   {
-  background-image:url("https://i.ytimg.com/vi/Am-gG-VyXPg/maxresdefault.jpg");
+  -webkit-animation:GOJAEGER;
+  -webkit-animation-duration:20s;
+  -webkit-animation-iteration-count:infinite;
+  }
+
+
+
+
+body
+  {
+  -webkit-animation:GOJAEGER;
+  -webkit-animation-duration:10s;
+  -webkit-animation-iteration-count:infinite;
   }
 
 
